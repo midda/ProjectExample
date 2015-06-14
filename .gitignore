@@ -1,0 +1,54 @@
+# Bower files
+# We include bower.json only and not bower components as grunt will handle module installs
+# for bower components first. Grunt will then do other tasks as needed with these files such
+# as concat/compass. Empty bower_components folder is not ignored as this is the root and is 
+# referenced in bower installs/grunt tasks and .bowerrc
+src/global/bower_components/**
+
+# Node module timestamps
+node_modules/**
+
+# Ignore folders inside build directory. Not ingoring dist itself as we reference the root 
+# folder in grunt tasks
+dist/**
+
+# CSS
+# Not ignoring other CSS files as we may be using Bower components
+# that have CSS files which are updated on "bower install" so will need to 
+# commmit these to the repository
+src/global/styles/css
+
+# JS
+src/global/scripts/global.js
+
+# OS generated files 
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.tmp
+
+# Sass Cache remove
+*.sass-cache
+/.sass-cache
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# Packages 
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

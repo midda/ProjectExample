@@ -1,0 +1,3 @@
+# This is to ensure we can have an empty directoy in git repository
+# for our project template as we ignore the global.js
+!.gitignore
