@@ -4,13 +4,10 @@ var concat = [
   'src/global/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
 
   // Third party components
-  'src/global/bower_components/SimpleStateManager/src/ssm.js',
-  'src/global/bower_components/fullpage.js/vendors/jquery.slimscroll.js',
   'src/global/bower_components/fullpage.js/jquery.fullPage.js',
   'src/global/third-party-plugins/**/*.js',
 
   // Global components
-  'src/global/scripts/utils.js',
   'src/global/components/**/*.js', 
 
   // Ignore
