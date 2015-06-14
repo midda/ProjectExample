@@ -1,0 +1,9 @@
+1) Install Node Js and git and then from cmd run the following
+2) $ npm install -g grunt
+3) $ npm install -g grunt-cli
+4) $ npm install -g bower
+5) $ npm compass
+6) navigate to the folder that this project is in!
+7) $ npm install
+8) $ bower install
+9) then kick it all off with "$ grunt serve"
